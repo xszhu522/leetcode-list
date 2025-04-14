@@ -1,13 +1,14 @@
 {
-  "name": "my-typescript",
+  "name": "leetcode-list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-ts": "tsc && node dist/index.js",
-    "dev": "node src/index.js"
+    "build": "tsc",
+    "dev": "node dist/index.js",
+    "build-dev": "tsc && node dist/index.js"
   },
   "keywords": [],
   "author": "",
