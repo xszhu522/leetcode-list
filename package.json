@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "node dist/index.js",
-    "build-dev": "tsc && node dist/index.js"
+    "build-dev": "tsc && node dist/index.js",
+    "get-problemset": "tsc && node dist/get-problemset.js",
+    "get-favorite": "tsc && node dist/get-favorite.js"
   },
   "keywords": [],
   "author": "",
